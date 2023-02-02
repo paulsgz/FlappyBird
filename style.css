@@ -3,7 +3,46 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
     border: 2px solid black;
 } 
+.Note {
+  
+    display: none;
+}
+@media screen and (max-width: 1200px) and (max-height:800px) {
+    #canvas1 {
+        width: 600px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 800px) and (max-height:800px) {
+    #canvas1 {
+        width: 500px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 600px) and (max-height:800px) {
+    #canvas1 {
+        display: none;
+    }
+    .Note {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-height:450px) {
+    #canvas1 {
+        display: none;
+    }
+    .Note {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+

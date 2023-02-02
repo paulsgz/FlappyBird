@@ -1,4 +1,5 @@
 // const canvas = document.getElementById("canvas1");
+alert("Instructions: Hold space bar to fly and release it to fall, enjoy!")
 const canvas = document.querySelector('#canvas1');
 const context = canvas.getContext('2d')    
 
